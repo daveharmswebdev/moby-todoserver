@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+
+# Prisma generated files
+prisma/.env
+prisma/migrations/
+prisma/dev.db
+prisma/dev.db-journal
+
+# OS files
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode settings (optional)
+.vscode/
+
+# Test coverage
+coverage/
+
+# Others
+*.log
+
+# Ignore generated Prisma client (if not checked in)
+# Uncomment if you do NOT want to commit the generated client
+# node_modules/.prisma/
